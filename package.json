@@ -1,0 +1,21 @@
+{
+  "name": "bun-starter-template",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "start:dev": "nodemon --watch src --exec bun src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.7.1",
+    "@elysiajs/swagger": "^0.7.3",
+    "console-log-colors": "^0.4.0",
+    "elysia": "^0.7.15"
+  }
+}
